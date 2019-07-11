@@ -54,7 +54,7 @@ public class mainsliders extends AppCompatActivity {
         dotsLayout=(LinearLayout)findViewById(R.id.layoutDots);
         skip=(Button)findViewById(R.id.btn_skip);
         next = (Button)findViewById(R.id.btn_next);
-        layouts = new int[]{R.layout.slides_1,R.layout.slides_2,R.layout.slides_3,R.layout.slides_4};
+        layouts = new int[]{R.layout.slides_1,R.layout.slides_2,R.layout.slides_3};
         addBottomDots(0);
         changeStatusBarColor();
         viewPagerAdapter = new ViewPagerAdapter();
