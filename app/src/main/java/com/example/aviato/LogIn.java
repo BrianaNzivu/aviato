@@ -14,7 +14,11 @@ public class LogIn extends AppCompatActivity {
         setContentView(R.layout.activity_log_in);
 
     }
-
+    public void gotohome(View view)
+    {
+        Intent intent = new Intent(this, Home.class);
+        startActivity(intent);
+    }
 
 }
 

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">aviato</string>
+    <string name="text_home">Home</string>
+    <string name="text_search">Search</string>
+    <string name="text_favourites">Favourites</string>
+    <string name="text_recent">Recent</string>
+    <string name="text_account">Account</string>
+
 </resources>
