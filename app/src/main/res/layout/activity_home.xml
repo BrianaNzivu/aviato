@@ -13,7 +13,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             app:itemBackground="@color/colorPrimaryDark"
-            app:itemTextColor="@color/white"
+            app:itemTextColor="@color/secondary_light"
             app:menu="@menu/navigation" />
 
 
