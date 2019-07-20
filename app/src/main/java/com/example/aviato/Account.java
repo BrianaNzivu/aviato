@@ -29,9 +29,9 @@ public class Account extends Fragment {
     public void onResume(){
         super.onResume();
 
-        // Set title bar
-        ((Home) getActivity())
-                .setActionBarTitle("Account");
+//        // Set title bar
+//        ((Home) getActivity())
+//                .setActionBarTitle("Account");
 
     }
 }

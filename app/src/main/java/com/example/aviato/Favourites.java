@@ -28,10 +28,10 @@ public class Favourites extends Fragment {
 
     public void onResume(){
         super.onResume();
-
-        // Set title bar
-        ((Home) getActivity())
-                .setActionBarTitle("Slideshow");
+//
+//        // Set title bar
+//        ((Home) getActivity())
+//                .setActionBarTitle("Slideshow");
 
     }
 }

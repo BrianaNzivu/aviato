@@ -16,7 +16,7 @@ public class LogIn extends AppCompatActivity {
     }
     public void gotohome(View view)
     {
-        Intent intent = new Intent(this, Home.class);
+        Intent intent = new Intent(this, home.class);
         startActivity(intent);
     }
 

@@ -28,9 +28,9 @@ public class Recents extends Fragment {
     public void onResume(){
         super.onResume();
 
-        // Set title bar
-        ((Home) getActivity())
-                .setActionBarTitle("Recents");
+//        // Set title bar
+//        ((Home) getActivity())
+//                .setActionBarTitle("Recents");
 
     }
 }

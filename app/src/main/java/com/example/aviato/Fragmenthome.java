@@ -28,9 +28,9 @@ public class Fragmenthome extends Fragment {
     public void onResume(){
         super.onResume();
 
-        // Set title bar
-        ((Home) getActivity())
-                .setActionBarTitle("Slideshow");
+//        // Set title bar
+//        ((Home) getActivity())
+//                .setActionBarTitle("Slideshow");
 
     }
 }
