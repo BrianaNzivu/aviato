@@ -10,9 +10,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".favourite_example"></activity>
+        <activity android:name=".Favouritepage" />
         <activity
             android:name=".home"
-            android:label="@string/title_activity_home"></activity>
+            android:label="@string/title_activity_home" />
         <activity android:name=".LogIn" />
         <activity android:name=".Register" />
         <activity android:name=".mainsliders" />

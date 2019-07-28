@@ -23,20 +23,26 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/assistant_bold"
-                        android:text="Hottest Deals this month"
-                        android:textColor="@color/secondary_light"
-                        android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/assistant_bold"
+                    android:text="Hottest Deals this month"
+                    android:textColor="@color/secondary_light"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp" />
 
-                    <ImageView
-                        android:layout_width="350dp"
-                        android:layout_height="300dp"
-                        android:layout_marginLeft="0dp"
-                        android:layout_marginTop="15dp"
-                        android:src="@drawable/mombasa"/>
+
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="300dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/image"
+                    android:src="@drawable/mombasa"
+
+                    />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -96,18 +102,8 @@
                         android:text="600,000"
                         android:textColor="@color/secondary_light" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="250dp"
-                        android:layout_marginTop="880dp"
-                        android:drawableLeft="@drawable/location"
-                        android:drawablePadding="6dp"
-                        android:text="Cape Town"
-                        android:textColor="@color/secondary_light" />
 
-
-                    <TextView
+                <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="250dp"
@@ -172,9 +168,10 @@
 
                                 <android.support.v7.widget.CardView
                                     android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
+                                    android:layout_height="200dp"
                                     app:cardBackgroundColor="@color/white"
                                     app:cardCornerRadius="10dp"
+                                    android:layout_marginHorizontal="10dp"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintHorizontal_bias="0.0"
@@ -183,29 +180,31 @@
                                     app:layout_constraintVertical_bias="0.0">
 
                                     <ImageView
-                                        android:layout_width="250dp"
-                                        android:layout_height="300dp"
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
                                         android:background="@color/white"
                                         android:paddingRight="18dp"
-                                        android:scaleType="fitStart"
+                                        android:scaleType="centerCrop"
                                         android:src="@drawable/maasaimara" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:paddingHorizontal="5dp"
-                                        android:paddingVertical="120dp"
+                                        android:paddingHorizontal="10dp"
+                                        android:paddingVertical="9dp"
                                         android:text="Maasai Mara"
-                                        android:textSize="16sp" />
+                                        android:textSize="16sp"
+                                        android:textColor="@color/white"/>
 
                                 </android.support.v7.widget.CardView>
 
 
                                 <android.support.v7.widget.CardView
                                     android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
+                                    android:layout_height="200dp"
                                     app:cardBackgroundColor="@color/white"
                                     app:cardCornerRadius="10dp"
+                                    android:layout_marginHorizontal="10dp"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintHorizontal_bias="0.0"
@@ -214,27 +213,30 @@
                                     app:layout_constraintVertical_bias="0.0">
 
                                     <ImageView
-                                        android:layout_width="250dp"
-                                        android:layout_height="300dp"
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
                                         android:paddingRight="18dp"
-                                        android:scaleType="fitStart"
+                                        android:scaleType="centerCrop"
                                         android:src="@drawable/mombasa" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:paddingHorizontal="5dp"
-                                        android:paddingVertical="120dp"
+                                        android:paddingHorizontal="10dp"
+                                        android:paddingVertical="9dp"
                                         android:text="Mombasa"
-                                        android:textSize="16sp" />
+                                        android:textSize="16sp"
+                                        android:textStyle="bold"/>
                                 </android.support.v7.widget.CardView>
 
 
                                 <android.support.v7.widget.CardView
                                     android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
+                                    android:layout_height="200dp"
                                     app:cardBackgroundColor="@color/white"
-                                    app:cardCornerRadius="10dp"
+                                    app:cardCornerRadius="8dp"
+                                    android:layout_marginHorizontal="10dp"
+                                    android:elevation="20dp">
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintHorizontal_bias="0.0"
@@ -243,27 +245,29 @@
                                     app:layout_constraintVertical_bias="0.0">
 
                                     <ImageView
-                                        android:layout_width="250dp"
-                                        android:layout_height="300dp"
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
                                         android:paddingRight="18dp"
-                                        android:scaleType="fitStart"
+                                        android:scaleType="centerCrop"
                                         android:src="@drawable/mtkenya" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:paddingHorizontal="5dp"
-                                        android:paddingVertical="120dp"
+                                        android:paddingHorizontal="10dp"
+                                        android:paddingVertical="9dp"
                                         android:text="Nyeri"
-                                        android:textSize="16sp" />
+                                        android:textSize="16sp"
+                                        android:textStyle="bold"/>
                                 </android.support.v7.widget.CardView>
 
 
                                 <android.support.v7.widget.CardView
                                     android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
+                                    android:layout_height="200dp"
                                     app:cardBackgroundColor="@color/white"
                                     app:cardCornerRadius="10dp"
+                                    android:layout_marginHorizontal="10dp"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintHorizontal_bias="0.0"
@@ -272,28 +276,54 @@
                                     app:layout_constraintVertical_bias="0.0">
 
                                         <ImageView
-                                            android:layout_width="250dp"
-                                            android:layout_height="300dp"
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
                                             android:paddingRight="18dp"
-                                            android:scaleType="fitStart"
+                                            android:scaleType="centerCrop"
                                             android:src="@drawable/victoria" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:paddingHorizontal="5dp"
-                                            android:paddingVertical="120dp"
+                                            android:paddingHorizontal="10dp"
+                                            android:paddingVertical="9dp"
                                             android:text="Kisumu"
-                                            android:textSize="16sp" />
+                                            android:textSize="16sp"
+                                            android:textStyle="bold"/>
                                 </android.support.v7.widget.CardView>
 
                             </LinearLayout>
                         </HorizontalScrollView>
+                
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/aircraft"
+                android:layout_marginTop="670dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introducing the new"
+                android:layout_marginTop="900dp"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="930dp"
+                    android:fontFamily="@font/brawler"
+                    android:textStyle="bold"
+                    android:text="Bombardier Learjet 60XR"
+                    android:textSize="18sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="70dp"
-                android:layout_marginTop="620dp"
+                android:layout_marginTop="1000dp"
                 android:fontFamily="@font/assistant_bold"
                 android:text="International flights."
                 android:textColor="@color/secondary_light"
@@ -302,41 +332,43 @@
             <TableLayout
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_marginTop="670dp">
+                android:layout_marginTop="1050dp">
 
                 <TableRow
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp">
 
                         <ImageView
-                            android:layout_width="200dp"
-                            android:layout_height="200dp"
+                            android:layout_width="180dp"
+                            android:layout_height="180dp"
                             android:layout_column="1"
                             android:src="@drawable/paris"
                             android:paddingLeft="-35dp"/>
 
                         <ImageView
                             android:id="@+id/textClock"
-                            android:layout_width="200dp"
-                            android:layout_height="200dp"
+                            android:layout_width="180dp"
+                            android:layout_height="180dp"
                             android:layout_column="2"
                             android:src="@drawable/capetown"
                             android:paddingLeft="-50dp"/>
 
                 </TableRow>
 
-                <TableRow android:layout_marginTop="100dp">
+                <TableRow android:layout_marginTop="100dp"
+                    android:layout_marginLeft="20dp">
 
                     <ImageView
-                        android:layout_width="200dp"
-                        android:layout_height="200dp"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
                         android:layout_column="1"
                         android:paddingLeft="-35dp"
                         android:src="@drawable/egypt" />
 
                     <ImageView
-                        android:layout_width="200dp"
-                        android:layout_height="200dp"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
                         android:layout_column="1"
                         android:paddingLeft="-50dp"
                         android:src="@drawable/morocco" />

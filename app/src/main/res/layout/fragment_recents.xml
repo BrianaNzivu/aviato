@@ -3,12 +3,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Recents">
+    tools:context=".Recents"
+    android:background="@drawable/recentback">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="recents" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recent Activities."
+        android:textColor="@color/secondary_light"
+        android:fontFamily="@font/assistant_bold"
+        android:textSize="22sp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This shows your Recent activities."
+        android:textSize="18sp"
+        android:textColor="@color/secondary_light"
+        android:layout_marginTop="63dp"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Recents"
+        android:textColor="@color/secondary_light"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="140dp"/>
 
 </FrameLayout>

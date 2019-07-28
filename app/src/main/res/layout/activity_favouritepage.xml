@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Favourites"
+                android:textColor="@color/secondary_light"
+                android:fontFamily="@font/assistant_bold"
+                android:textSize="22sp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="15dp"/>
+
+            <ImageView
+                android:id="@+id/santorini"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/santorini"
+                android:onClick="gotofavourite_example"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Santorini,Grecce"
+                android:textColor="@color/secondary_light"
+                android:fontFamily="@font/alegreya_sans_sc_black"
+                android:textSize="22sp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="60dp"/>
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="435dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/helicopter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-47 Chinook"
+                android:textColor="@color/secondary_light"
+                android:fontFamily="@font/alegreya_sans_sc_black"
+                android:textSize="22sp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="420dp"/>
+
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="765dp"
+                android:layout_marginLeft="10dp"
+
+                android:src="@drawable/kilimanjaro"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moshi,Tanznia."
+                android:textColor="@color/secondary_light"
+                android:fontFamily="@font/alegreya_sans_sc_black"
+                android:textSize="22sp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="750dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
