@@ -14,10 +14,10 @@ Sahara is a Mobile App that is used by to book private palnes to various destina
 Currently working on the backend of the App.
 
 ## Technologies Used
-Java
-Xml
-Firebase for auth,messaging, authentication, database
-hdodenhof library for circular imageViews
+#### Java
+#### Xml
+#### Firebase for auth,messaging, authentication, database
+#### hdodenhof library for circular imageViews
 
 
 ## Support and contact details
